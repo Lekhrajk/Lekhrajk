@@ -11,4 +11,4 @@
 - 💬 Ask me about Frontend Development including Android/ios app
 - 📫 How to reach me: Haryanvideveloper777@gmail.com
 
-<img src"https://github-readme-stats.vercel.app/api?username=Lekhrajk&&show_icons=true&title_color=ffffff&icon_color=bb2acf&text_color=fff&bg_color=121321" />
+<img src"https://github-readme-stats.vercel.app/api?username=Lekhrajk&&show_icons=true&title_color=ffffff&icon_color=bb2acf&text_color=fff&bg_color=121321">
