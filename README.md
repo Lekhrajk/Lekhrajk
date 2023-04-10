@@ -7,6 +7,9 @@
 - 📫 How to reach me: Haryanvideveloper777@gmail.com
 
 # 📊GitHub Stats :
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=lekhrajk" alt="lekhrajk" /></a> </p>
+
+# 📊GitHub Stats :
 ![](https://github-readme-stats.vercel.app/api?username=Lekhrajk&&show_icons=true&bg_color=#072F41&theme=flag-india&hide_border=true&include_all_commits=true&count_private=true)<br/>
 ![](https://github-readme-streak-stats.herokuapp.com/?user=Lekhrajk&theme=flag-india&hide_border=true)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=Lekhrajk&theme=flag-india&hide_border=true&include_all_commits=true&count_private=true&layout=compact)
