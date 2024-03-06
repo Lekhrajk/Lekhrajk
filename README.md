@@ -1,10 +1,10 @@
 ### Hi there 👋
 
-- 🔭 I’m currently working on React.js,Vue.js,Next.js,Nuxt.js.
+- 🔭 I’m currently working on Next.js,Nuxt.js and React native
 - 🌱 I’m currently learning WEB3,BlockChain
 - 👯 I’m looking to collaborate on New Product
 - 💬 Ask me about Frontend Development including Android/ios app
-- 📫 How to reach me: Haryanvideveloper777@gmail.com
+- 📫 How to reach me: haryanvideveloper777@gmail.com
 
 
 # 📊GitHub Stats :
