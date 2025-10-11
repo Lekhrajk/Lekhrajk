@@ -29,6 +29,6 @@
 ### ✍️Daily Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
- ### 😂 Daily Dev Meme
-<img src="https://meme-api.com/gimme" width="512px" />
+### 😂 Daily Dev Meme
+<img src="https://raw.githubusercontent.com/Lekhrajk/Lekhrajk/output/meme.png" width="320px" alt="Daily Meme" />
 
