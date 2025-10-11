@@ -15,7 +15,7 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=lekhrajk" alt="lekhrajk" /></a> </p>
 
-<img src="https://raw.githubusercontent.com/lekhrajk/lekhrajk/output/snake.svg" alt="Snake animation" />
+![GitHub Snake](https://raw.githubusercontent.com/Lekhrajk/Lekhrajk/output/snake.svg)
 
 
 # 💻Tech Stack
