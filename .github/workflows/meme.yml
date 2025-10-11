@@ -3,7 +3,7 @@ name: Generate Daily Dev Meme
 on:
   schedule:
     - cron: "0 0 * * *"  # runs daily at midnight UTC
-  workflow_dispatch: # allow manual run
+  workflow_dispatch: # manual trigger
 
 jobs:
   generate:
@@ -12,21 +12,36 @@ jobs:
       contents: write
 
     steps:
-      - name: Checkout repo
+      # 1️⃣ Checkout the repo
+      - name: Checkout repository
         uses: actions/checkout@v4
 
+      # 2️⃣ Fetch a random meme
       - name: Fetch random meme
         id: meme
         run: |
-          echo "Fetching random meme..."
+          echo "Fetching random meme from API..."
           response=$(curl -s https://meme-api.com/gimme)
-          image_url=$(echo $response | jq -r '.preview[2]')
+          echo "API Response: $response"
+          
+          # Extract 320px preview URL
+          image_url=$(echo "$response" | jq -r '.preview[2]')
           echo "Meme URL: $image_url"
+
+          # Check if URL is valid
+          if [ -z "$image_url" ] || [ "$image_url" == "null" ]; then
+            echo "No valid image URL found. Exiting."
+            exit 1
+          fi
+
+          # Download image
           curl -L "$image_url" -o meme.png
 
-      - name: Create output directory
-        run: mkdir -p dist && mv meme.png dist/meme.png
+          # Create dist folder and move image there
+          mkdir -p dist
+          mv meme.png dist/meme.png
 
+      # 3️⃣ Push meme.png to output branch
       - name: Push meme.png to output branch
         uses: crazy-max/ghaction-github-pages@v3
         with:
